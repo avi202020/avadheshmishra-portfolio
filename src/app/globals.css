@@ -2,34 +2,40 @@
 @tailwind components;
 @tailwind utilities;
 
-html { scroll-behavior: smooth; }
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   @apply bg-white text-neutral-900 antialiased;
 }
 
+/* ===== Executive Dark Theme ===== */
 .dark body {
-  @apply bg-neutral-950 text-neutral-100;
+  @apply bg-neutral-950 text-neutral-200;
 }
 
-/* Executive typography defaults */
+/* Typography discipline */
 h1, h2, h3 {
   @apply tracking-tight;
 }
 
-/* Print-friendly CV view */
+/* Links */
+a {
+  @apply text-blue-400 hover:text-blue-300;
+}
+
+/* ===== Print-friendly CV ===== */
 @media print {
   html, body {
     background: white !important;
     color: #111 !important;
   }
 
-  /* Hide interactive UI */
   .print\:hidden {
     display: none !important;
   }
 
-  /* Remove shadows/borders that don't print well */
   * {
     box-shadow: none !important;
   }
@@ -45,7 +51,6 @@ h1, h2, h3 {
     max-width: none !important;
   }
 
-  /* Improve page breaks */
   article {
     break-inside: avoid;
     page-break-inside: avoid;
