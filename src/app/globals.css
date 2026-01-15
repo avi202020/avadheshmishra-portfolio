@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html { scroll-behavior: smooth; }
+
+body {
+  @apply bg-white text-neutral-900 antialiased;
+}
+
+.dark body {
+  @apply bg-neutral-950 text-neutral-100;
+}
+
+/* Executive typography defaults */
+h1, h2, h3 {
+  @apply tracking-tight;
+}
+
+/* Print-friendly CV view */
+@media print {
+  html, body {
+    background: white !important;
+    color: #111 !important;
+  }
+
+  /* Hide interactive UI */
+  .print\:hidden {
+    display: none !important;
+  }
+
+  /* Remove shadows/borders that don't print well */
+  * {
+    box-shadow: none !important;
+  }
+
+  a {
+    color: #111 !important;
+    text-decoration: none !important;
+  }
+
+  main {
+    padding: 0 !important;
+    margin: 0 !important;
+    max-width: none !important;
+  }
+
+  /* Improve page breaks */
+  article {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+}
