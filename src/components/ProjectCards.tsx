@@ -7,7 +7,7 @@ export function ProjectCards() {
       {resume.projects.map((p) => (
         <article
           key={p.title}
-          className="rounded-2xl border bg-white p-6 shadow-soft dark:bg-neutral-950"
+          className="rounded-2xl border border-neutral-800 bg-neutral-900 p-6 shadow-soft"
         >
           <h3 className="text-base font-semibold">{p.title}</h3>
           <p className="mt-1 text-sm text-neutral-600 dark:text-neutral-300">{p.role}</p>
