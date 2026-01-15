@@ -1,10 +1,10 @@
 export const resume = {
   name: "Avadhesh Mishra",
-  title: "Principal Delivery Consultant – Enterprise, Platform & CTO Advisory",
+  title: "Principal Delivery Consultant – Enterprise, Platform",
   location: "Bournemouth, England, United Kingdom",
   email: "avadhesh.cs@gmail.com",
   phone: "+44 7956368638",
-  linkedin: "https://www.linkedin.com/in/UPDATE_ME",
+  linkedin: "https://www.linkedin.com/in/mishraavadhesh",
   github: "https://github.com/avi202020",
   cvDownloadUrl: "/Avadhesh_Mishra_CV.pdf",
   googleFormEmbedUrl: "https://docs.google.com/forms/d/e/1xlt6sqGmIKKiBPMDmJkZe2W0dlHAwBXyVpWwakopzjc/viewform?embedded=true",
