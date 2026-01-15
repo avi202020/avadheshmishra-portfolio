@@ -9,7 +9,9 @@ export function Section({
 }) {
   return (
     <section id={id} className="mt-10 scroll-mt-24">
-      <h2 className="text-xl font-semibold tracking-tight">{title}</h2>
+      <h2 className="border-l-4 border-blue-400 pl-3 text-xl font-semibold tracking-tight">
+        {title}
+      </h2>
       <div className="mt-3">{children}</div>
     </section>
   );
