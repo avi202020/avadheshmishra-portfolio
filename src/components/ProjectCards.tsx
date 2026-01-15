@@ -7,24 +7,19 @@ export function ProjectCards() {
       {resume.projects.map((p) => (
         <article
           key={p.title}
-          className="rounded-2xl border border-neutral-800 bg-neutral-900 p-6 shadow-soft"
+          className="rounded-2xl border bg-white p-6 shadow-soft dark:bg-neutral-950"
         >
-          {/* Header */}
-          <div className="flex flex-col gap-1">
-            <h3 className="text-base font-semibold text-neutral-100">
-              {p.title}
-            </h3>
-            <span className="text-sm text-neutral-400">
+          <div className="flex flex-col gap-1 sm:flex-row sm:items-baseline sm:justify-between">
+            <h3 className="text-base font-semibold">{p.title}</h3>
+            <span className="text-sm text-neutral-600 dark:text-neutral-300">
               {p.role}
             </span>
           </div>
 
-          {/* Description */}
-          <p className="mt-3 leading-relaxed text-neutral-200">
+          <p className="mt-3 leading-relaxed text-neutral-700 dark:text-neutral-200">
             {p.description}
           </p>
 
-          {/* Focus Areas */}
           <div className="mt-4 flex flex-wrap gap-2">
             {p.focusAreas.map((f) => (
               <Badge key={f}>{f}</Badge>
