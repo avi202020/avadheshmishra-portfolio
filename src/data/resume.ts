@@ -1,6 +1,6 @@
 export const resume = {
   name: "Avadhesh Mishra",
-  title: "Principal Delivery Consultant – Enterprise, Platform",
+  title: "Senior Principal Specialist Delivery – Enterprise, Platform",
   location: "Bournemouth, England, United Kingdom",
   email: "avadhesh.cs@gmail.com",
   phone: "+44 7956368638",
