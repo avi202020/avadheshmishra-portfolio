@@ -8,9 +8,9 @@ export const resume = {
   phone: "+44 7956368638",
   linkedin: "https://www.linkedin.com/in/mishraavadhesh",
   github: "https://github.com/avi202020",
-  cvDownloadUrl: "/Avadhesh_Mishra_Executive_CV.pdf",
-  googleFormEmbedUrl: "https://docs.google.com/forms/d/e/REPLACE_WITH_YOUR_FORM_ID/viewform?embedded=true",
-  googleFormEditUrl: "https://docs.google.com/forms/d/REPLACE_WITH_YOUR_FORM_ID/edit",
+  cvDownloadUrl: "/Avadhesh_Mishra_CV.pdf",
+  googleFormEmbedUrl: "https://docs.google.com/forms/d/e/1cHxLdvE1PiyPoHwEVM2Gkwdi5ebybZF5ro0qGZORmcQ/viewform?embedded=true",
+  googleFormEditUrl: "https://docs.google.com/forms/d/1cHxLdvE1PiyPoHwEVM2Gkwdi5ebybZF5ro0qGZORmcQ/edit",
 
   summary:
     "Technology and delivery executive with 20+ years of experience leading large-scale, high-value transformation programmes across Tier-1 banking, global consulting, and UK public sector organisations. Proven track record delivering multi-billion-dollar banking programmes and multi-million-pound government initiatives, combining programme governance, stakeholder leadership, and risk management with deep hands-on technical credibility in cloud, DevSecOps, and security architecture.",
