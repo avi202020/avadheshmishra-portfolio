@@ -29,35 +29,26 @@ export function Header() {
         </div>
       </div>
 
-<p className="text-sm text-neutral-600 dark:text-neutral-300 print:hidden">
-  {resume.location} •{" "}
-  <a className="underline" href={`tel:${resume.phone}`}>
-    {resume.phone}
-  </a>{" "}
-  •{" "}
-  <a className="underline" href={`mailto:${resume.email}`}>
-    {resume.email}
-  </a>{" "}
-  •{" "}
-  <a
-    className="underline"
-    href={resume.linkedin}
-    target="_blank"
-    rel="noreferrer"
-  >
-    LinkedIn
-  </a>{" "}
-  •{" "}
-  <a
-    className="underline"
-    href={resume.github}
-    target="_blank"
-    rel="noreferrer"
-  >
-    GitHub
-  </a>
-</p>
+      <p className="text-sm text-neutral-600 dark:text-neutral-300">
+        {resume.location} •{" "}
+        <a className="underline" href={`tel:${resume.phone}`}>
+          {resume.phone}
+        </a>{" "}
+        •{" "}
+        <a className="underline" href={`mailto:${resume.email}`}>
+          {resume.email}
+        </a>
+      </p>
 
+      <p className="text-sm text-neutral-600 dark:text-neutral-300 print:hidden">
+        <a className="underline" href={resume.linkedin} target="_blank" rel="noreferrer">
+          LinkedIn
+        </a>{" "}
+        •{" "}
+        <a className="underline" href={resume.github} target="_blank" rel="noreferrer">
+          GitHub
+        </a>
+      </p>
     </header>
   );
 }
