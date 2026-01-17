@@ -1,30 +1,42 @@
-# Avadhesh Mishra – Portfolio (Next.js)
+# avadheshmishra.com — Portfolio
 
-Single-page portfolio built with Next.js (App Router) + Tailwind.
+A clean, fast **Next.js + Tailwind** portfolio site driven by a single config file: **`src/data/resume.ts`**.
 
-## Local run
+This version is aligned to the latest CV (Program / Delivery Management + Cloud & Security Architecture).
+
+## Run locally
+
 ```bash
 npm install
 npm run dev
 ```
 
-## Update content
-Edit `src/data/resume.ts` (LinkedIn/GitHub links + text).
+Open `http://localhost:3000`.
 
-## CV download
-Replace `public/Avadhesh_Mishra_Final_Clean_CV.pdf` with your real PDF (same filename).
+## Update content
+
+Edit:
+
+- `src/data/resume.ts` — name, title, summary, experience, major programmes, certifications, skills
+- `public/Avadhesh_Mishra_Executive_CV.pdf` — CV download file (linked from the **Download CV** button)
 
 ## Deploy
-Push to GitHub and deploy on Vercel.
 
+### Option A — Vercel (recommended for Next.js)
 
-## Print-friendly CV
-Use your browser Print → Save as PDF. The site hides the navbar and buttons in print.
+1. Push this repo to GitHub.
+2. Import into Vercel.
+3. Add your domain **`avadheshmishra.com`** in Vercel → Project Settings → Domains.
+4. Update DNS at your registrar:
+   - Add/Update **A record** for root domain to Vercel’s IP (or follow Vercel’s guided DNS)
+   - Add **CNAME** for `www` to Vercel
 
-## Contact form (Google Forms)
-1) Create a Google Form (add fields: Name, Email, Message).
-2) In Google Forms: **Settings → Responses → Get email notifications for new responses** (or use the 3-dot menu → "Get email notifications").
-   - Ensure notifications go to **avadhesh.cs@gmail.com** (the Google account owning the form).
-3) Click **Send → <> Embed HTML**, copy the `src` URL and set it in:
-   - `src/data/resume.ts` → `googleFormEmbedUrl`
-4) Optionally set `googleFormEditUrl` for your own reference (shown only in print view).
+### Option B — Netlify
+
+- Build command: `npm run build`
+- Publish directory: `.next` (or use Netlify’s Next.js runtime)
+
+## Notes
+
+- The header shows **LinkedIn**, **GitHub**, and **Portfolio** links.
+- Contact form URLs in `resume.ts` are placeholders — replace with your actual Google Form links if you want embedded contact.
