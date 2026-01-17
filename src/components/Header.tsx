@@ -48,6 +48,14 @@ export function Header() {
         <a className="underline" href={resume.github} target="_blank" rel="noreferrer">
           GitHub
         </a>
+        {resume.website ? (
+          <>
+            {" "}•{" "}
+            <a className="underline" href={resume.website} target="_blank" rel="noreferrer">
+              Portfolio
+            </a>
+          </>
+        ) : null}
       </p>
     </header>
   );
