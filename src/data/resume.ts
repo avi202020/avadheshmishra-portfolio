@@ -1,14 +1,14 @@
 export const resume = {
   name: "Avadhesh Mishra",
-  title: "Senior Principal Specialist Delivery – Enterprise, Platform",
+  title: "Principal Delivery Consultant – Enterprise, Platform & CTO Advisory",
   location: "Bournemouth, England, United Kingdom",
-  email: "avadhesh.cs@gmail.com",
+  email: "avadheshcissp@gmail.com",
   phone: "+44 7956368638",
-  linkedin: "https://www.linkedin.com/in/mishraavadhesh",
-  github: "https://github.com/avi202020",
-  cvDownloadUrl: "/Avadhesh_Mishra_CV.pdf",
-  googleFormEmbedUrl: "https://docs.google.com/forms/d/e/1FAIpQLSc8ZJQPvRlcwM-a3NwlATtnywJzipH8eTmJYcytkQssms42ug/viewform?embedded=true",
-  googleFormEditUrl: "https://docs.google.com/forms/d/1FAIpQLSc8ZJQPvRlcwM-a3NwlATtnywJzipH8eTmJYcytkQssms42ug/edit",
+  linkedin: "https://www.linkedin.com/in/UPDATE_ME",
+  github: "https://github.com/UPDATE_ME",
+  cvDownloadUrl: "/Avadhesh_Mishra_Final_Clean_CV.pdf",
+  googleFormEmbedUrl: "https://docs.google.com/forms/d/e/REPLACE_WITH_YOUR_FORM_ID/viewform?embedded=true",
+  googleFormEditUrl: "https://docs.google.com/forms/d/REPLACE_WITH_YOUR_FORM_ID/edit",
 
   summary:
     "Technology executive with 20+ years of experience leading enterprise engineering, cloud, security, and digital transformation across Tier-1 banking, global consulting, and UK public sector programmes. Proven senior technology leader combining strategic vision with hands-on execution, mentoring leaders, building MVPs, defining runbooks, and scaling secure, resilient platforms in highly regulated environments.",
